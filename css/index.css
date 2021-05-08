@@ -1,0 +1,35 @@
+.head {
+  display: flex;
+  height: 30rem;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('/assets/thumbnail.png');
+}
+
+.page-title {
+  text-shadow: 0 0 15px var(--color-transparent-2);
+}
+
+.intro h2 {
+  margin-bottom: 0.5em;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+  .team-members {
+    grid-template-columns: 1fr;
+  }
+}

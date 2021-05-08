@@ -1,0 +1,42 @@
+{
+  "members": [
+    {
+      "uuid": "7b967b88-3156-4491-8ea1-5e2b2e66fddb",
+      "ranks": ["owner", "creator"]
+    },
+    {
+      "uuid": "bb13c36d-634b-4eb1-9f18-a2487d89d92f",
+      "ranks": ["owner", "developer"]
+    },
+    {
+      "uuid": "5206a57f-1c9e-4c56-94a3-7f6239bf524b",
+      "ranks": ["moderator"]
+    },
+    {
+      "uuid": "542c2465-250c-477e-9f23-003f08f3c75c",
+      "ranks": ["builder"]
+    }
+  ],
+  "ranks": {
+    "owner": {
+      "name": "Owner",
+      "color": "#cf1d1d"
+    },
+    "moderator": {
+      "name": "Moderator",
+      "color": "#ff4d4d"
+    },
+    "creator": {
+      "name": "Creator",
+      "color": "#64c8ff"
+    },
+    "developer": {
+      "name": "Developer",
+      "color": "orange"
+    },
+    "builder": {
+      "name": "Builder",
+      "color": "#64ff64"
+    }
+  }
+}
