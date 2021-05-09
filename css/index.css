@@ -33,3 +33,12 @@
     grid-template-columns: 1fr;
   }
 }
+
+.member-icon {
+  width: 10rem;
+  box-shadow: 0 0 15px var(--color-transparent-2);
+}
+
+.member-name {
+  font-size: 2.5rem;
+}

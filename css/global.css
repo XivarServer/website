@@ -31,19 +31,23 @@
   word-break: break-word;
 }
 
-body {
-  font-size: 16pt;
-  font-family: panton, sans-serif;
-  text-transform: uppercase;
+html {
+  font-size: 16px;
 }
 
 @media screen and (max-width: 800px) {
-  body {
-    font-size: 12pt;
+  html {
+    font-size: 12px;
   }
 }
 
-ul {
+body {
+  font-family: panton, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+li {
   list-style: none;
 }
 
@@ -72,7 +76,7 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  background-color: var(--color-transparent-1);
+  background-color: var(--color-transparent-2);
 }
 
 .section h2 {
@@ -84,7 +88,7 @@ section {
 }
 
 .section-content {
-  padding: 5rem 2rem;
+  padding: 8rem 2rem;
 }
 
 /* Header */
